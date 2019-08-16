@@ -1,0 +1,10 @@
+@import '../../../bootstrap-variables.scss';
+
+.product-details {
+	padding: 0;
+
+	.inner-content {
+		background: #ffffff;
+		padding: $spacing * 2;
+	}
+}

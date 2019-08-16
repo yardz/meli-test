@@ -1,0 +1,29 @@
+@import '../../../../bootstrap-variables.scss';
+
+$font-size-big: 24px;
+
+.product-price-details {
+	font-size: $font-size-sm;
+	.estado {
+		display: block;
+		padding-bottom: $spacing;
+	}
+	.title {
+		font-size: $font-size-big;
+		padding-bottom: $spacing * 2;
+	}
+	.price {
+		font-size: $font-size-big * 2;
+		padding-bottom: $spacing * 2;
+		white-space: nowrap;
+	}
+	.buy-btn {
+		display: block;
+		width: 100%;
+		padding-right: $spacing * 2;
+
+		.btn {
+			width: 100%;
+		}
+	}
+}

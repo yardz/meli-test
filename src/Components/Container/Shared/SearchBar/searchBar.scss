@@ -1,0 +1,7 @@
+.search-bar {
+	padding: 10px 0;
+
+	.form-control:focus {
+		box-shadow: none;
+	}
+}

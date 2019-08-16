@@ -1,0 +1,13 @@
+@import '../../../bootstrap-variables.scss';
+
+.list-itens {
+	padding: 0;
+
+	.inner-content {
+		background: #ffffff;
+		padding: $spacing * 2;
+		.product {
+			margin: $spacing 0;
+		}
+	}
+}

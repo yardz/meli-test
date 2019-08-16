@@ -1,0 +1,21 @@
+@import '../../../../bootstrap-variables.scss';
+
+.product-description {
+	display: inline-block;
+
+	.details {
+		display: block;
+	}
+	.price {
+		@extend .details;
+		font-size: $font-size-lg;
+		padding-bottom: $spacing * 2;
+
+		img {
+			margin-left: 5px;
+		}
+	}
+	.condition {
+		@extend .details;
+	}
+}

@@ -1,0 +1,14 @@
+@import '../../../../bootstrap-variables.scss';
+
+.product-description {
+	max-width: 100%;
+	white-space: pre-line;
+	padding-top: $spacing * 4;
+
+	h2 {
+		margin-bottom: $spacing * 2;
+	}
+	.description {
+		font-size: 16px;
+	}
+}

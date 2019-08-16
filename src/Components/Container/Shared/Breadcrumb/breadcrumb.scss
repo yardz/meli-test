@@ -1,0 +1,19 @@
+@import '../../../../bootstrap-variables.scss';
+
+.breadcrumb-component {
+	padding: 0;
+
+	.breadcrumb {
+		.breadcrumb-item {
+			a {
+				color: $body-color;
+			}
+			&.active {
+				span {
+					color: $body-color;
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}
